@@ -1,0 +1,17 @@
+{
+  "env": {
+    "browser": true,
+    "es2021": true
+  },
+  "extends": ["standard"],
+  "parserOptions": {
+    "ecmaVersion": 12
+  },
+  "rules": {
+    //disable rule of space before function parentheses
+    "space-before-function-paren": 0
+  },
+  "globals": {
+    "use": true
+  }
+}

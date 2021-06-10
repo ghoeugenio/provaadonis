@@ -1,0 +1,19 @@
+<h1>TGL</h1>
+
+<strong>Eai {{ name }}, suave?</strong>
+
+<p>Deu tudo certo com tua aposta </p>
+<p>Os jogos foram esses</p>
+
+@each(game in sendGamesToEmail)
+  <p>-------------------TGL-------------------</p>
+  <p> Jogo = {{ game.type }} </p>
+  <p> Preço = {{ game.price }} </p>
+  <p> Números = {{ game.numbers }} </p>
+  <p> Data = {{ game.date }} </p>
+@endeach
+<strong> Total: R$ {{totalPrice}}</strong>
+
+<p> Boa sorte Cria</p>
+
+<strong>Multiplique suas chances, acesse o site e veja as promoções e cashbacks</strong>
